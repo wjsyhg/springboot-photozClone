@@ -12,7 +12,7 @@ import java.util.UUID;
 public class PhotozService {
 
     private Map<String, Photo> db = new HashMap<>() {{
-        put("1", new Photo("1", "hellp.jpg"));
+        put("1", new Photo("1", "hello.jpg"));
     }};
 
     public Collection<Photo> get() {
