@@ -4,12 +4,9 @@ import com.wjsyhg.emma.photozclone.model.Photo;
 import com.wjsyhg.emma.photozclone.service.PhotozService;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.server.ResponseStatusException;
 
-import java.io.IOException;
 import java.util.Collection;
-import java.util.UUID;
 
 @RestController
 public class PhotozController {
